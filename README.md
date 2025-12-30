@@ -10,15 +10,25 @@ This repository hosts a GitHub Pages site with:
 
 ## Accessing the Site
 
-Once GitHub Pages is enabled for this repository:
-1. Go to repository Settings > Pages
-2. Set Source to "Deploy from a branch"
-3. Select branch: `main` (or `master`) and folder: `/ (root)`
-4. Save the settings
+This repository uses GitHub Actions to automatically deploy to GitHub Pages. 
+
+### Setup Instructions
+
+1. Go to repository **Settings > Pages**
+2. Under "Build and deployment":
+   - Set **Source** to "GitHub Actions"
+3. The workflow will automatically deploy when you push to the main/master branch
 
 The site will be available at: `https://dreamti-me.github.io/RogueWordsInfo/`
 
 Direct privacy policy URL: `https://dreamti-me.github.io/RogueWordsInfo/privacy-policy.html`
+
+### Automatic Deployment
+
+The `.github/workflows/pages.yml` workflow automatically:
+- Builds the site with Jekyll when you push to main/master
+- Deploys to GitHub Pages
+- Can be manually triggered from the Actions tab
 
 ## Files
 
