@@ -1,5 +1,4 @@
 # RogueWordsInfo (retired)
 
-RogueWords is now Lexicriss. This page only redirects the old privacy and home URLs to
-https://dreamti.me/lexicriss/privacy.html, so older store listings still reach the current policy.
-The policy itself lives in the dreamtime-site repo (`lexicriss/privacy.html`). Do not edit text here.
+RogueWords is now Lexicriss. The old privacy and home pages are removed.
+The current privacy policy is https://dreamti.me/lexicriss/privacy.html (source: dreamtime-site repo, `lexicriss/privacy.html`).
